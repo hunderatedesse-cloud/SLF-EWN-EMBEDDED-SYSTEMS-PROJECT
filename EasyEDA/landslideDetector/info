@@ -1,0 +1,462 @@
+{
+  "uuid": "a467c789df972397eb5bb331c870b883",
+  "path": "Offline/landslideDetector",
+  "name": "landslideDetector",
+  "content": "",
+  "created_at": "2026-08-20 09:41:32",
+  "updated_at": "2026-10-09 22:17:42",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "4732941de90dc79723e03a5fe10181d2",
+      "title": "Schematic_transmitter",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "291136695e374a25b98e7a0ad344bcf4": 1,
+        "8f15646993504c40a5b48ff3dc3c1367": 1,
+        "7f1341b54c77479dbdc44002270970ef": 2,
+        "5aa25abbe55c4e20bb7aad180799be85": 1,
+        "c99800e04af1474aaf1069c95dc7e57a": 1,
+        "ed7af7846a7444b38265b7bf1796c5dd": 4,
+        "21f8f80a3f7c3c2b00b33f71a31ff6ef": 1,
+        "7f40de36add74228a2df091b8cd69785": 1,
+        "d2e6e0610df84dd9af2df6339b6b2a6e": 1,
+        "36628af0fe3849a2f482991ed56c81b7": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Header-Male-2.54_1x8",
+          1,
+          "HDR-TH_8P-P2.54-V-M",
+          "ADXL345",
+          {
+            "Manufacturer Part": "B-2100S08P-A110",
+            "Manufacturer": "Ckmtw(灿科盟)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124381"
+          }
+        ],
+        [
+          "ATMEGA328P-PU",
+          1,
+          "DIP-28_L34.6-W7.3-P2.54-LS10.2-BL",
+          "ATMEGA328P-PU",
+          {
+            "Manufacturer Part": "ATMEGA328P-PU",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C33901"
+          }
+        ],
+        [
+          "BH-14250-A1AJ001",
+          1,
+          "BAT-TH_BH-14250-A1AJ001",
+          "BAT1",
+          {
+            "Manufacturer Part": "BH-14250-A1AJ001",
+            "Manufacturer": "MYOUNG(美阳)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5290178"
+          }
+        ],
+        [
+          "100nF",
+          2,
+          "CAP-TH_L4.8-W3.2-P5.08-D1.2",
+          "C2,C4",
+          {
+            "Manufacturer Part": "CT4G-0805-2X1-50V-0.1uF-K",
+            "Manufacturer": "TORCH(火炬)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C141981"
+          }
+        ],
+        [
+          "ZVP2106A",
+          1,
+          "TO-92-3_L4.8-W3.7-P1.27-L",
+          "Q1",
+          {
+            "Manufacturer Part": "ZVP2106A",
+            "Manufacturer": "DIODES(美台)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7170029"
+          }
+        ],
+        [
+          "HX PZ2.54-1X9P ZZ",
+          1,
+          "HDR-TH_9P-P2.54-V-F-3",
+          "RA-02",
+          {
+            "Manufacturer Part": "HX PZ2.54-1x9P ZZ",
+            "Manufacturer": "hanxia(韩下)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C42372501"
+          }
+        ],
+        [
+          "031-70564-12G",
+          1,
+          "SMA-TH_031-70564-12G",
+          "SMA-TH",
+          {
+            "Manufacturer Part": "031-70564-12G",
+            "Manufacturer": "Amphenol",
+            "Supplier": "LCSC",
+            "Supplier Part": "C6375298"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x3",
+          1,
+          "HDR-TH_3P-P2.54-V-M-1",
+          "SOIL_MOISTURE_SENSOR",
+          {
+            "Manufacturer Part": "2.54-1*3P针",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C49257"
+          }
+        ],
+        [
+          "AXIAL-0.4",
+          4,
+          "RES-TH_BD2.2-L6.0-P10.00-D0.5",
+          "U2,U5,U6,U7",
+          {
+            "Manufacturer Part": "AXIAL-0.4",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900020985"
+          }
+        ],
+        [
+          "0.47F5.5VDC",
+          1,
+          "CAP-TH_BD12.5-P5.0_CTYPE",
+          "U4",
+          {
+            "Manufacturer Part": "0.47F5.5VDC",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900166265"
+          }
+        ]
+      ],
+      "updateTime": 1791573462,
+      "createTime": 1787208092,
+      "histories": [],
+      "created_at": "2026-08-20 09:41:32",
+      "updated_at": "2026-10-09 22:17:42"
+    },
+    {
+      "uuid": "86d980a27cccdecdddfcedf34d0aec38",
+      "puuid": "a467c789df972397eb5bb331c870b883",
+      "title": "PCB_SingleLayer",
+      "filename": "PCB_SingleLayer.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b0b58b20cd6c46a089fad5319c39ed41": 1,
+        "7e70b923819e4f3bb9fdeaf4abdca9d3": 1,
+        "89a5d7bf74194fc9aeafe2e8d0760338": 1,
+        "9ec2b43ee5424c22b3921e13e4abb917": 4,
+        "d815be6e238d409ebe9fb94e76efcd38": 1,
+        "5b76c8b17a18408b88432563753fa146": 2,
+        "7142253ac24c42e1954a7f7d1d66b136": 1,
+        "a318b1558bd44791bcbb082864a7c0c6": 1,
+        "a7664493ef4849a79ab3f005d3738038": 1,
+        "c0f68fc76c7f4b3ea582307f9d5387a3": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100nF",
+          2,
+          "CAP-TH_L4.8-W3.2-P5.08-D1.2",
+          "C2,C4",
+          {
+            "Manufacturer Part": "CT4G-0805-2X1-50V-0.1uF-K",
+            "Manufacturer": "TORCH(火炬)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C141981"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x8",
+          3,
+          "HDR-TH_8P-P2.54-V-M",
+          "LIS3DH_MODULE,LORA1,LORA_VCC1",
+          {
+            "Manufacturer Part": "B-2100S08P-A110",
+            "Manufacturer": "Ckmtw(灿科盟)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124381"
+          }
+        ],
+        [
+          "ZVP2106A",
+          1,
+          "TO-92-3_L4.8-W3.7-P1.27-L",
+          "Q1",
+          {
+            "Manufacturer Part": "ZVP2106A",
+            "Manufacturer": "DIODES(美台)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7170029"
+          }
+        ],
+        [
+          "031-70564-12G",
+          1,
+          "SMA-TH_031-70564-12G",
+          "RF1",
+          {
+            "Manufacturer Part": "031-70564-12G",
+            "Manufacturer": "Amphenol",
+            "Supplier": "LCSC",
+            "Supplier Part": "C6375298"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x3",
+          1,
+          "HDR-TH_3P-P2.54-V-M-1",
+          "SOIL_MOISTURE_SENSOR",
+          {
+            "Manufacturer Part": "2.54-1*3P针",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C49257"
+          }
+        ],
+        [
+          "HC-PM254-8.5H-1X2PZ",
+          1,
+          "CONN-TH_HC-PM254-8.5H-1X2PZ",
+          "SOURCE",
+          {
+            "Manufacturer Part": "HC-PM254-8.5H-1x2PZ-02A",
+            "Manufacturer": "HC(虹成电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C22373888"
+          }
+        ],
+        [
+          "ATMEGA328P-PN",
+          1,
+          "PDIP-28_L35.0-W7.3-P2.54-LS7.8-BL",
+          "U1",
+          {
+            "Manufacturer Part": "ATMEGA328P-PN",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1337455"
+          }
+        ],
+        [
+          "AXIAL-0.4",
+          4,
+          "RES-TH_BD2.2-L6.0-P10.00-D0.5",
+          "U2,U3,U5,U6",
+          {
+            "Manufacturer Part": "AXIAL-0.4",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900020985"
+          }
+        ],
+        [
+          "0.47F5.5VDC",
+          1,
+          "CAP-TH_BD12.5-P5.0_CTYPE",
+          "U4",
+          {
+            "Manufacturer Part": "0.47F5.5VDC",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900166265"
+          }
+        ]
+      ],
+      "updateTime": 1787688140,
+      "createTime": 1787275361,
+      "histories": [],
+      "created_at": "2026-08-21 04:22:41",
+      "updated_at": "2026-08-25 23:02:20"
+    },
+    {
+      "uuid": "c8d944d156ca5afe4f5a84dde7d5a465",
+      "puuid": "a467c789df972397eb5bb331c870b883",
+      "title": "PCB_SingleLayer_SQUARE",
+      "filename": "PCB_SingleLayer_SQUARE.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7e70b923819e4f3bb9fdeaf4abdca9d3": 1,
+        "d815be6e238d409ebe9fb94e76efcd38": 1,
+        "5b76c8b17a18408b88432563753fa146": 2,
+        "a318b1558bd44791bcbb082864a7c0c6": 1,
+        "9ec2b43ee5424c22b3921e13e4abb917": 4,
+        "b0b58b20cd6c46a089fad5319c39ed41": 1,
+        "89a5d7bf74194fc9aeafe2e8d0760338": 1,
+        "a7664493ef4849a79ab3f005d3738038": 1,
+        "7142253ac24c42e1954a7f7d1d66b136": 1,
+        "c0f68fc76c7f4b3ea582307f9d5387a3": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100nF",
+          2,
+          "CAP-TH_L4.8-W3.2-P5.08-D1.2",
+          "C2,C4",
+          {
+            "Manufacturer Part": "CT4G-0805-2X1-50V-0.1uF-K",
+            "Manufacturer": "TORCH(火炬)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C141981"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x8",
+          3,
+          "HDR-TH_8P-P2.54-V-M",
+          "LIS3DH_MODULE,LORA1,LORA_VCC1",
+          {
+            "Manufacturer Part": "B-2100S08P-A110",
+            "Manufacturer": "Ckmtw(灿科盟)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124381"
+          }
+        ],
+        [
+          "ZVP2106A",
+          1,
+          "TO-92-3_L4.8-W3.7-P1.27-L",
+          "Q1",
+          {
+            "Manufacturer Part": "ZVP2106A",
+            "Manufacturer": "DIODES(美台)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7170029"
+          }
+        ],
+        [
+          "031-70564-12G",
+          1,
+          "SMA-TH_031-70564-12G",
+          "RF1",
+          {
+            "Manufacturer Part": "031-70564-12G",
+            "Manufacturer": "Amphenol",
+            "Supplier": "LCSC",
+            "Supplier Part": "C6375298"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x3",
+          1,
+          "HDR-TH_3P-P2.54-V-M-1",
+          "SOIL_MOISTURE_SENSOR",
+          {
+            "Manufacturer Part": "2.54-1*3P针",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C49257"
+          }
+        ],
+        [
+          "HC-PM254-8.5H-1X2PZ",
+          1,
+          "CONN-TH_HC-PM254-8.5H-1X2PZ",
+          "SOURCE",
+          {
+            "Manufacturer Part": "HC-PM254-8.5H-1x2PZ-02A",
+            "Manufacturer": "HC(虹成电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C22373888"
+          }
+        ],
+        [
+          "ATMEGA328P-PN",
+          1,
+          "PDIP-28_L35.0-W7.3-P2.54-LS7.8-BL",
+          "U1",
+          {
+            "Manufacturer Part": "ATMEGA328P-PN",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1337455"
+          }
+        ],
+        [
+          "AXIAL-0.4",
+          4,
+          "RES-TH_BD2.2-L6.0-P10.00-D0.5",
+          "U2,U3,U5,U6",
+          {
+            "Manufacturer Part": "AXIAL-0.4",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900020985"
+          }
+        ],
+        [
+          "0.47F5.5VDC",
+          1,
+          "CAP-TH_BD12.5-P5.0_CTYPE",
+          "U4",
+          {
+            "Manufacturer Part": "0.47F5.5VDC",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900166265"
+          }
+        ]
+      ],
+      "updateTime": 1791560827,
+      "createTime": 1787688145,
+      "histories": [],
+      "created_at": "2026-08-25 23:02:25",
+      "updated_at": "2026-10-09 18:47:07"
+    }
+  ],
+  "sort": [
+    "4732941de90dc79723e03a5fe10181d2",
+    "a819cf4ae29bcc7bee6fb0d21ed1434b",
+    "9c884a3c00c548e47860b4a891fb3ff9"
+  ],
+  "title": "landslideDetector",
+  "foldername": "landslideDetector",
+  "schfilename": "landslideDetector.json",
+  "schfilemtime": 1791573462085
+}

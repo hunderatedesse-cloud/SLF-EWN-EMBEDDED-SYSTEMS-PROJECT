@@ -1,0 +1,9 @@
+# Build outputs
+build/
+.cache/
+*.o
+*.obj
+
+# Editor state
+.nvim.lua
+.vscode/

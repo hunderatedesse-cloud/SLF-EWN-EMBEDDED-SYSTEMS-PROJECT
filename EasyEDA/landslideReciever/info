@@ -1,0 +1,564 @@
+{
+  "uuid": "a4ee9751c3a99b624981531a446c1150",
+  "path": "Offline/landslideReciever",
+  "name": "landslideReciever",
+  "content": "",
+  "created_at": "2026-08-23 09:36:57",
+  "updated_at": "2026-10-25 20:18:57",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "877914045dbad145dc68ef9f59185283",
+      "title": "Schematic_receiver",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f931d9d9e5ad45d8b9db8732317f9447": 1,
+        "8f15646993504c40a5b48ff3dc3c1367": 1,
+        "7f1341b54c77479dbdc44002270970ef": 2,
+        "ed7af7846a7444b38265b7bf1796c5dd": 3,
+        "5aa25abbe55c4e20bb7aad180799be85": 1,
+        "0b4b240667a3451f86c5f87a792353a7": 1,
+        "8ad8241cca1a41a1a9cd403a3ccb3072": 2,
+        "5203ae3240364f39b9204863473d66de": 1,
+        "d2e6e0610df84dd9af2df6339b6b2a6e": 1,
+        "23458c62054f4bf3a950d579825a0274": 1,
+        "98a34519bab746e68f2aae323e3d4008": 1,
+        "7f40de36add74228a2df091b8cd69785": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "BH-14250-A1AJ001",
+          2,
+          "BAT-TH_BH-14250-A1AJ001",
+          "BAT1,BAT2",
+          {
+            "Manufacturer Part": "BH-14250-A1AJ001",
+            "Manufacturer": "MYOUNG(美阳)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5290178"
+          }
+        ],
+        [
+          "22pF",
+          2,
+          "CAP-TH_L7.0-W3.4-P10.00-D0.6",
+          "C1,C3",
+          {
+            "Manufacturer Part": "CC3J220KE1IESL6P7000",
+            "Manufacturer": "Dersonic(德尔创)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C48587149"
+          }
+        ],
+        [
+          "100nF",
+          2,
+          "CAP-TH_L4.8-W3.2-P5.08-D1.2",
+          "C2,C4",
+          {
+            "Manufacturer Part": "CT4G-0805-2X1-50V-0.1uF-K",
+            "Manufacturer": "TORCH(火炬)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C141981"
+          }
+        ],
+        [
+          "W25Q64 64Mbit module",
+          1,
+          "W25Q64",
+          "EEPROM",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "HX PZ2.54-1X9P ZZ",
+          1,
+          "HDR-TH_9P-P2.54-V-F-3",
+          "H4",
+          {
+            "Manufacturer Part": "HX PZ2.54-1x9P ZZ",
+            "Manufacturer": "hanxia(韩下)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C42372501"
+          }
+        ],
+        [
+          "031-70564-12G",
+          1,
+          "SMA-TH_031-70564-12G",
+          "RF1",
+          {
+            "Manufacturer Part": "031-70564-12G",
+            "Manufacturer": "Amphenol",
+            "Supplier": "LCSC",
+            "Supplier Part": "C6375298"
+          }
+        ],
+        [
+          "ATMEGA328P-PN",
+          1,
+          "PDIP-28_L35.0-W7.3-P2.54-LS7.8-BL",
+          "U1",
+          {
+            "Manufacturer Part": "ATMEGA328P-PN",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1337455"
+          }
+        ],
+        [
+          "AXIAL-0.4",
+          3,
+          "RES-TH_BD2.2-L6.0-P10.00-D0.5",
+          "U2,U3,U6",
+          {
+            "Manufacturer Part": "AXIAL-0.4",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900020985"
+          }
+        ],
+        [
+          "0.47F5.5VDC",
+          1,
+          "CAP-TH_BD12.5-P5.0_CTYPE",
+          "U4",
+          {
+            "Manufacturer Part": "0.47F5.5VDC",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900166265"
+          }
+        ],
+        [
+          "GT-TC072A-H038-L1",
+          1,
+          "SW-SMD_G-SWITCH_GT-TC072X-H043-LX",
+          "U7",
+          {
+            "Manufacturer Part": "GT-TC072A-H038-L1",
+            "Manufacturer": "G-Switch(品赞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5117855"
+          }
+        ],
+        [
+          "Adaptador USB_Serial FTDI_FT232RL",
+          1,
+          "USB_SERIAL FTDI_FT232RL",
+          "USB",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "16MHz",
+          1,
+          "HC-49S_L11.5-W4.7-P4.88",
+          "X1",
+          {
+            "Manufacturer Part": "H1OEL89CSC-SUGYLC-16M",
+            "Manufacturer": "YXC(扬兴晶振)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7500566"
+          }
+        ]
+      ],
+      "updateTime": 1792948732,
+      "createTime": 1787208092,
+      "histories": [],
+      "created_at": "2026-08-20 09:41:32",
+      "updated_at": "2026-10-25 20:18:52"
+    },
+    {
+      "uuid": "63f60e042c0c34dbbb39c3273e00c948",
+      "puuid": "a4ee9751c3a99b624981531a446c1150",
+      "title": "PCB_landslideReciever",
+      "filename": "PCB_landslideReciever.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b0b58b20cd6c46a089fad5319c39ed41": 2,
+        "d363ea6a9338461e9b37ebcb6361fcbf": 2,
+        "5b76c8b17a18408b88432563753fa146": 2,
+        "d815be6e238d409ebe9fb94e76efcd38": 1,
+        "a7664493ef4849a79ab3f005d3738038": 1,
+        "9ec2b43ee5424c22b3921e13e4abb917": 3,
+        "89a5d7bf74194fc9aeafe2e8d0760338": 1,
+        "893e77c10f634e859f1ae77de610ff39": 1,
+        "3f28f93a1038466bb4278c143d76e779": 1,
+        "c0f68fc76c7f4b3ea582307f9d5387a3": 1,
+        "a541419bced84c9ab0413832bfb97588": 1,
+        "7b79db65410b45faa4bcd17a850f371e": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "BH-14250-A1AJ001",
+          2,
+          "BAT-TH_BH-14250-A1AJ001",
+          "BAT1,BAT2",
+          {
+            "Manufacturer Part": "BH-14250-A1AJ001",
+            "Manufacturer": "MYOUNG(美阳)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5290178"
+          }
+        ],
+        [
+          "22pF",
+          2,
+          "CAP-TH_L7.0-W3.4-P10.00-D0.6",
+          "C1,C3",
+          {
+            "Manufacturer Part": "CC3J220KE1IESL6P7000",
+            "Manufacturer": "Dersonic(德尔创)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C48587149"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "CAP-TH_L4.8-W3.2-P5.08-D1.2",
+          "C2",
+          {
+            "Manufacturer Part": "CT4G-0805-2X1-50V-0.1uF-K",
+            "Manufacturer": "TORCH(火炬)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C141981"
+          }
+        ],
+        [
+          "HX PM2.0-1X4P WT",
+          1,
+          "HDR-SMD_4P-P2.00_HXPM2.0-1X4PWT",
+          "H2",
+          {
+            "Manufacturer Part": "HX PM2.0-1x4P WT",
+            "Manufacturer": "hanxia(韩下)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C46061754"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x8",
+          2,
+          "HDR-TH_8P-P2.54-V-M",
+          "LORA1,LORA_VCC1",
+          {
+            "Manufacturer Part": "B-2100S08P-A110",
+            "Manufacturer": "Ckmtw(灿科盟)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124381"
+          }
+        ],
+        [
+          "031-70564-12G",
+          1,
+          "SMA-TH_031-70564-12G",
+          "RF1",
+          {
+            "Manufacturer Part": "031-70564-12G",
+            "Manufacturer": "Amphenol",
+            "Supplier": "LCSC",
+            "Supplier Part": "C6375298"
+          }
+        ],
+        [
+          "TS-1187A-B-F-B",
+          1,
+          "SW-SMD_4P-L5.2-W5.2-P3.70-LS6.4-TL_TS-1187A-B-F-B",
+          "SW2",
+          {
+            "Manufacturer Part": "TS-1187A-B-F-B",
+            "Manufacturer": "XKB Connection(中国星坤)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C692461"
+          }
+        ],
+        [
+          "ATMEGA328P-PN",
+          1,
+          "PDIP-28_L35.0-W7.3-P2.54-LS7.8-BL",
+          "U1",
+          {
+            "Manufacturer Part": "ATMEGA328P-PN",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1337455"
+          }
+        ],
+        [
+          "AXIAL-0.4",
+          3,
+          "RES-TH_BD2.2-L6.0-P10.00-D0.5",
+          "U2,U3,U6",
+          {
+            "Manufacturer Part": "AXIAL-0.4",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900020985"
+          }
+        ],
+        [
+          "0.47F5.5VDC",
+          1,
+          "CAP-TH_BD12.5-P5.0_CTYPE",
+          "U4",
+          {
+            "Manufacturer Part": "0.47F5.5VDC",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900166265"
+          }
+        ],
+        [
+          "W25Q64 64Mbit module",
+          1,
+          "W25Q64",
+          "U7",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "16MHz",
+          1,
+          "HC-49S_L11.5-W4.7-P4.88",
+          "X1",
+          {
+            "Manufacturer Part": "H1OEL89CSC-SUGYLC-16M",
+            "Manufacturer": "YXC(扬兴晶振)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7500566"
+          }
+        ]
+      ],
+      "updateTime": 1787731628,
+      "createTime": 1787468587,
+      "histories": [],
+      "created_at": "2026-08-23 10:03:07",
+      "updated_at": "2026-08-26 11:07:08"
+    },
+    {
+      "uuid": "47a0be40c3d6e1169bd4a199a4de23e3",
+      "puuid": "a4ee9751c3a99b624981531a446c1150",
+      "title": "PCB_landslideReciever copy",
+      "filename": "PCB_landslideReciever copy.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b0b58b20cd6c46a089fad5319c39ed41": 2,
+        "d363ea6a9338461e9b37ebcb6361fcbf": 2,
+        "5b76c8b17a18408b88432563753fa146": 2,
+        "d815be6e238d409ebe9fb94e76efcd38": 1,
+        "a7664493ef4849a79ab3f005d3738038": 1,
+        "9ec2b43ee5424c22b3921e13e4abb917": 3,
+        "89a5d7bf74194fc9aeafe2e8d0760338": 1,
+        "893e77c10f634e859f1ae77de610ff39": 1,
+        "3f28f93a1038466bb4278c143d76e779": 1,
+        "c0f68fc76c7f4b3ea582307f9d5387a3": 1,
+        "a541419bced84c9ab0413832bfb97588": 1,
+        "7b79db65410b45faa4bcd17a850f371e": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "BH-14250-A1AJ001",
+          2,
+          "BAT-TH_BH-14250-A1AJ001",
+          "BAT1,BAT2",
+          {
+            "Manufacturer Part": "BH-14250-A1AJ001",
+            "Manufacturer": "MYOUNG(美阳)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5290178"
+          }
+        ],
+        [
+          "22pF",
+          2,
+          "CAP-TH_L7.0-W3.4-P10.00-D0.6",
+          "C1,C3",
+          {
+            "Manufacturer Part": "CC3J220KE1IESL6P7000",
+            "Manufacturer": "Dersonic(德尔创)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C48587149"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "CAP-TH_L4.8-W3.2-P5.08-D1.2",
+          "C2",
+          {
+            "Manufacturer Part": "CT4G-0805-2X1-50V-0.1uF-K",
+            "Manufacturer": "TORCH(火炬)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C141981"
+          }
+        ],
+        [
+          "HX PM2.0-1X4P WT",
+          1,
+          "HDR-SMD_4P-P2.00_HXPM2.0-1X4PWT",
+          "H2",
+          {
+            "Manufacturer Part": "HX PM2.0-1x4P WT",
+            "Manufacturer": "hanxia(韩下)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C46061754"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x8",
+          2,
+          "HDR-TH_8P-P2.54-V-M",
+          "LORA1,LORA_VCC1",
+          {
+            "Manufacturer Part": "B-2100S08P-A110",
+            "Manufacturer": "Ckmtw(灿科盟)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124381"
+          }
+        ],
+        [
+          "031-70564-12G",
+          1,
+          "SMA-TH_031-70564-12G",
+          "RF1",
+          {
+            "Manufacturer Part": "031-70564-12G",
+            "Manufacturer": "Amphenol",
+            "Supplier": "LCSC",
+            "Supplier Part": "C6375298"
+          }
+        ],
+        [
+          "TS-1187A-B-F-B",
+          1,
+          "SW-SMD_4P-L5.2-W5.2-P3.70-LS6.4-TL_TS-1187A-B-F-B",
+          "SW2",
+          {
+            "Manufacturer Part": "TS-1187A-B-F-B",
+            "Manufacturer": "XKB Connection(中国星坤)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C692461"
+          }
+        ],
+        [
+          "ATMEGA328P-PN",
+          1,
+          "PDIP-28_L35.0-W7.3-P2.54-LS7.8-BL",
+          "U1",
+          {
+            "Manufacturer Part": "ATMEGA328P-PN",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1337455"
+          }
+        ],
+        [
+          "AXIAL-0.4",
+          3,
+          "RES-TH_BD2.2-L6.0-P10.00-D0.5",
+          "U2,U3,U6",
+          {
+            "Manufacturer Part": "AXIAL-0.4",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900020985"
+          }
+        ],
+        [
+          "0.47F5.5VDC",
+          1,
+          "CAP-TH_BD12.5-P5.0_CTYPE",
+          "U4",
+          {
+            "Manufacturer Part": "0.47F5.5VDC",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900166265"
+          }
+        ],
+        [
+          "W25Q64 64Mbit module",
+          1,
+          "W25Q64",
+          "U7",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "16MHz",
+          1,
+          "HC-49S_L11.5-W4.7-P4.88",
+          "X1",
+          {
+            "Manufacturer Part": "H1OEL89CSC-SUGYLC-16M",
+            "Manufacturer": "YXC(扬兴晶振)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7500566"
+          }
+        ]
+      ],
+      "updateTime": 1792948737,
+      "createTime": 1792945061,
+      "histories": [],
+      "created_at": "2026-10-25 19:17:41",
+      "updated_at": "2026-10-25 20:18:57"
+    }
+  ],
+  "sort": [
+    "877914045dbad145dc68ef9f59185283",
+    "a819cf4ae29bcc7bee6fb0d21ed1434b",
+    "9c884a3c00c548e47860b4a891fb3ff9"
+  ],
+  "title": "landslideReciever",
+  "foldername": "landslideReciever",
+  "schfilename": "landslideReciever.json",
+  "schfilemtime": 1792948732622
+}

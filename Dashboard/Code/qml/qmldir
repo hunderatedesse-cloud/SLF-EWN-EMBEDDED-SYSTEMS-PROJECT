@@ -1,0 +1,24 @@
+module SlfEwn
+singleton Theme 1.0 Theme.qml
+IconGlyph 1.0 IconGlyph.qml
+NavItem 1.0 NavItem.qml
+Sidebar 1.0 Sidebar.qml
+SerialBar 1.0 SerialBar.qml
+TopBar 1.0 TopBar.qml
+StatusDot 1.0 StatusDot.qml
+StatusChip 1.0 StatusChip.qml
+LimitSlider 1.0 LimitSlider.qml
+NodeCard 1.0 NodeCard.qml
+Sparkline 1.0 Sparkline.qml
+DetailPanel 1.0 DetailPanel.qml
+TelemetryChart 1.0 TelemetryChart.qml
+SegmentedControl 1.0 SegmentedControl.qml
+IndustrialButton 1.0 IndustrialButton.qml
+ToolTipLite 1.0 ToolTipLite.qml
+FieldInput 1.0 FieldInput.qml
+MessageBanner 1.0 MessageBanner.qml
+LoginPage 1.0 LoginPage.qml
+DashboardPage 1.0 DashboardPage.qml
+AlertLogPage 1.0 AlertLogPage.qml
+GeoMapPage 1.0 GeoMapPage.qml
+SettingsPage 1.0 SettingsPage.qml

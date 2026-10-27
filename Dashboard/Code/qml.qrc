@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/SlfEwn">
+        <file alias="qmldir">qml/qmldir</file>
+        <file alias="Main.qml">qml/Main.qml</file>
+        <file alias="Theme.qml">qml/Theme.qml</file>
+        <file alias="IconGlyph.qml">qml/components/IconGlyph.qml</file>
+        <file alias="NavItem.qml">qml/components/NavItem.qml</file>
+        <file alias="Sidebar.qml">qml/components/Sidebar.qml</file>
+        <file alias="SerialBar.qml">qml/components/SerialBar.qml</file>
+        <file alias="TopBar.qml">qml/components/TopBar.qml</file>
+        <file alias="StatusDot.qml">qml/components/StatusDot.qml</file>
+        <file alias="StatusChip.qml">qml/components/StatusChip.qml</file>
+        <file alias="LimitSlider.qml">qml/components/LimitSlider.qml</file>
+        <file alias="NodeCard.qml">qml/components/NodeCard.qml</file>
+        <file alias="Sparkline.qml">qml/components/Sparkline.qml</file>
+        <file alias="fonts/Inter-Regular.ttf">qml/fonts/Inter-Regular.ttf</file>
+        <file alias="fonts/Inter-Medium.ttf">qml/fonts/Inter-Medium.ttf</file>
+        <file alias="fonts/Inter-SemiBold.ttf">qml/fonts/Inter-SemiBold.ttf</file>
+        <file alias="fonts/JetBrainsMono-Regular.ttf">qml/fonts/JetBrainsMono-Regular.ttf</file>
+        <file alias="DetailPanel.qml">qml/components/DetailPanel.qml</file>
+        <file alias="TelemetryChart.qml">qml/components/TelemetryChart.qml</file>
+        <file alias="SegmentedControl.qml">qml/components/SegmentedControl.qml</file>
+        <file alias="IndustrialButton.qml">qml/components/IndustrialButton.qml</file>
+        <file alias="ToolTipLite.qml">qml/components/ToolTipLite.qml</file>
+        <file alias="FieldInput.qml">qml/components/FieldInput.qml</file>
+        <file alias="MessageBanner.qml">qml/components/MessageBanner.qml</file>
+        <file alias="LoginPage.qml">qml/pages/LoginPage.qml</file>
+        <file alias="DashboardPage.qml">qml/pages/DashboardPage.qml</file>
+        <file alias="AlertLogPage.qml">qml/pages/AlertLogPage.qml</file>
+        <file alias="GeoMapPage.qml">qml/pages/GeoMapPage.qml</file>
+        <file alias="SettingsPage.qml">qml/pages/SettingsPage.qml</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>qtquickcontrols2.conf</file>
+    </qresource>
+</RCC>
