@@ -1,3 +1,47 @@
+ Project Contributors
+
+ Hundera Tadesse
+
+Role: Embedded Systems Software Development, Proteus Simulation, Qt Dashboard Development & Technical Documentation**
+
+Project Contributions
+
+Contributing to the software development and simulation of the Smart Landslide and Flood Early Warning Network (SLF-EWN), with a focus on embedded system simulation, desktop monitoring application development, and technical documentation.
+
+My contributions include:
+
+1. Embedded System Simulation – Proteus
+- Developing and configuring microcontroller-based circuit simulations using Proteus.
+- Working with ATmega328P-based transmitter and receiver system simulations.
+- Simulating sensor inputs and system responses.
+- Testing simulated communication interfaces and system behavior.
+
+2. Desktop Monitoring Dashboard – Qt 6 / QML
+- Contributing to the development of a desktop monitoring application using Qt 6 and QML.
+- Developing graphical interfaces for displaying sensor readings and system status.
+- Designing warning and alert visualization features for potential flood and landslide risks.
+- Working on the software structure and serial communication interface for future integration with the embedded receiver.
+
+3. Embedded Software and System Development
+- Working with embedded C and microcontroller-based software.
+- Supporting the development and testing of transmitter and receiver software.
+- Contributing to sensor data processing and communication logic.
+- Supporting the software-level development of the early warning system.
+
+4. Project Architecture and Technical Documentation
+- Contributing to the project title, system architecture, and technical descriptions.
+- Documenting system functionality, software components, and simulation procedures.
+- Preparing technical documentation and project presentation materials.
+
+Future Development Areas
+- PCB design and development using EasyEDA.
+- Physical hardware implementation and testing.
+- Hardware-software integration and mechanical enclosure development.
+
+Technologies and Tools:C, ATmega328P, Proteus, Qt 6, QML, Embedded C, UART, Git and GitHub.
+
+GitHub: [@hunderatedesse-cloud](https://github.com/hunderatedesse-cloud)
+
 # SLF-EWN
 
 **Subterranean Landslide and Flood Early-Warning Network** — buried moisture and tilt sensing, long-range radio telemetry, and a desktop console for a hillside sensor grid.
